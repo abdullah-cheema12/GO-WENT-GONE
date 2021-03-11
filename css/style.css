@@ -1,0 +1,666 @@
+@import url(fonts.css);
+@import url(predefine-classes.css);
+@import url(mediaqurey.css);
+.header {
+    background-image: url(../images/backgroundwallpaper/hero_1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navigation {
+    position: absolute;
+    /* top: 0px;
+    left: 0px; */
+    width: 100%;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.navigation .logo {
+    width: 200px;
+    height: auto;
+}
+
+.navigation .togle {
+    width: 40px;
+    height: 40px;
+    /* background-color: brown; */
+    background-image: url(../images/logo/navigation\ menu.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.navigation .togle.active {
+    background-image: url(../images/logo/cross.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.slider-page {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 20;
+    transition: 0.2s;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.slider-page.active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.style-home-head {
+    max-width: 800px;
+}
+
+.navigation-li-father {
+    list-style: none;
+    flex-direction: column;
+}
+
+.style-li {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px !important;
+}
+
+.style-li:hover {
+    color: black;
+}
+
+.style-heading {
+    flex-direction: column !important;
+}
+
+.style-main-heading {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.style-button {
+    border: 0px;
+    margin-top: 5px !important;
+    border-radius: 40px;
+    font-weight: 800;
+    outline: none;
+    text-decoration: none;
+}
+
+.style-button:focus {
+    outline: none;
+}
+
+.style-form {
+    position: relative;
+    bottom: 7.1vh;
+}
+
+.style-parent-form {
+    -webkit-box-shadow: 0px 10px 21px 0px rgba(0, 0, 0, 0.59);
+    box-shadow: 0px 10px 21px 0px rgba(0, 0, 0, 0.59);
+}
+
+.style-input-form {
+    width: 190px !important;
+    height: 45px;
+    /* background-color: indigo; */
+    /* margin-left: 5px; */
+    margin: 5px 5px;
+    border-radius: 30px;
+    border: 0px;
+}
+
+.style-input-form:focus {
+    outline: none;
+}
+
+.style-top-heading {
+    color: #000;
+}
+
+.underline {
+    margin-top: 11px;
+    margin-left: 7px;
+    width: calc(100% - 20%);
+    height: 7px;
+    background-color: #a9a95e;
+}
+
+.style-carousel {
+    width: 361px;
+    height: 445px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.style-parent-carousel {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.background-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.style-card {
+    background-color: #a9a95b;
+    height: 300px;
+}
+
+#images1 {
+    background-image: url(../images/dubai.jpg);
+}
+
+#images2 {
+    background-image: url(../images/europe.jpg);
+}
+
+#images3 {
+    background-image: url(../images/singapur2.jpg);
+}
+
+#images4 {
+    background-image: url(../images/thiland\ 2.jpg);
+}
+
+#images5 {
+    background-image: url(../images/usa.jpg);
+}
+
+#images6 {
+    background-image: url(../images/venius.jpg);
+}
+
+#images7 {
+    background-image: url(../images/pakistanipalces/PassuCones.jpg);
+}
+
+#images8 {
+    background-image: url(../images/germany2.jpg);
+}
+
+#images9 {
+    background-image: url(../images/itly.jpg);
+}
+
+.style-sub-carousel {
+    position: relative;
+    bottom: 140px;
+    padding-left: 20px;
+    padding-top: 20px;
+    /* color: wheat; */
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.style-link-carousel {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 8px 10px;
+    background-color: #a9a95e;
+    font-size: 12px;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.style-link-carousel:hover {
+    color: black;
+}
+
+.style-places {
+    width: 250px;
+    height: 348px;
+    margin: 10px 10px;
+}
+
+.font {
+    font-size: 18px;
+}
+
+.flex-space {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    /* margin-left: 10px; */
+}
+
+.img {
+    border-radius: 10px;
+    width: 100%;
+    height: 250px;
+    background-color: #a9a95e;
+}
+
+#img1 {
+    background-image: url(../images/pakistanipalces/Swat-Valley.jpg);
+}
+
+#img2 {
+    background-image: url(../images/china.jpg);
+}
+
+#img3 {
+    background-image: url(../images/pakistanipalces/YarkhunValley.jpg);
+}
+
+#img4 {
+    background-image: url(../images/pakistanipalces/PassuCones.jpg);
+}
+
+strong {
+    font-size: 19px;
+    color: #a9a95e;
+    margin-left: 60px;
+}
+
+.small {
+    margin-top: 10px !important;
+    color: rgb(151, 151, 151);
+}
+
+.style-heading-dis {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.style-heading-dis h2 {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.style-services {
+    width: 347px;
+    height: 235px;
+    background-color: #ececec;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.fa-plane {
+    transform: rotate(270deg);
+}
+
+.style-icon {
+    margin-left: 2rem;
+    margin-top: 3rem;
+}
+
+.style-ser-heading {
+    margin-left: 2rem;
+}
+
+.style-sub-ser {
+    padding-right: 1rem;
+}
+
+.style-get-in {
+    color: #fff;
+    padding: 12px 37px;
+    border: 3px solid #fff;
+    border-radius: 30px;
+    transition: .6s ease;
+}
+
+.style-get-in:hover {
+    background-color: rgb(255, 255, 255);
+    color: #a9a95e !important;
+    /* font-size: 20px; */
+}
+
+.bg-footer {
+    background-image: url(../images/backgroundwallpaper/footer-01.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.style-footer {
+    margin-bottom: 10px;
+}
+
+.style-footer-parent {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.style-footer {
+    width: 357px;
+    height: 20vh;
+    /* background-color: aquamarine; */
+    margin: 5px;
+}
+
+.style-footer:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+
+.flex-dir-col {
+    flex-direction: column;
+}
+
+.flex-dir-row {
+    flex-direction: row;
+}
+
+.style-newsletter {
+    width: 100px;
+}
+
+.style-ul {
+    list-style: none;
+    padding-left: 0px !important;
+}
+
+.style-ul li {
+    margin: 0px;
+}
+
+.style-soc-icon {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    /* padding: 20px; */
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.fa-facebook-f {
+    background-color: #3b5998;
+}
+
+.fa-instagram {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
+}
+
+.fa-twitter {
+    background-color: #1DA1F2;
+}
+
+.flex-sapcebt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.style-links-copy {
+    text-decoration: none;
+}
+
+.style-links-copy:hover {
+    color: #a9a95e !important;
+    text-decoration: none;
+}
+
+.font-footer {
+    font-size: 12px;
+}
+
+.padding-0 {
+    padding: 0px;
+}
+
+.text-lightgrey {
+    color: grey;
+}
+
+.text-footer:hover {
+    color: #a9a95e !important;
+    text-decoration: none !important;
+}
+
+/* about , places , comtact and pages */
+
+/* about */
+
+.style-other-head {
+    font-size: 60px;
+}
+
+.style-sub-heading {
+    animation-delay: 0.1s;
+}
+
+.style-about-title {
+    font-size: 42px;
+}
+
+.style-button:hover {
+    text-decoration: none !important;
+}
+
+.style-img-about {
+    width: 258px;
+    height: 328px;
+}
+
+.style-img-2 {
+    margin-top: 93px;
+    margin-left: 16px;
+}
+
+.image-1 {
+    background-image: url(../images/backgroundwallpaper/11.jpg);
+}
+
+.image-2 {
+    background-image: url(../images/backgroundwallpaper/5.jpg);
+}
+
+.style-dp {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+#image1 {
+    background-image: url(../images/profilespics/person_1.jpg);
+}
+
+#image2 {
+    background-image: url(../images/profilespics/person_2.jpg);
+}
+
+#image3 {
+    background-image: url(../images/profilespics/person_3.jpg);
+}
+
+.bg-testimonals {
+    background-image: url(../images/backgroundwallpaper/testimonals.svg);
+}
+
+.style-faq-btn {
+    text-decoration: none !important;
+    border: 0px;
+    background: none;
+}
+
+.style-faq-btn:focus {
+    outline: none !important;
+}
+
+.card-header {
+    background: none !important;
+    border: 0px !important;
+    outline: none !important;
+}
+
+.card {
+    border: 0px !important;
+}
+
+.accordion {
+    margin-top: -30px !important;
+}
+
+#imge1 {
+    background-image: url(../images/sadia.jpg);
+}
+
+#imge2 {
+    background-image: url(../images/europe.jpg);
+}
+
+#imge3 {
+    background-image: url(../images/japan2.jpg);
+}
+
+#imge4 {
+    background-image: url(../images/germany.jpg);
+}
+
+#imge5 {
+    background-image: url(../images/russia.jpg);
+}
+
+#imge6 {
+    background-image: url(../images/singapur.jpg);
+}
+
+#imge7 {
+    background-image: url(../images/dubai.jpg);
+}
+
+#imge8 {
+    background-image: url(../images/abu\ dabi.jpg);
+}
+
+#imge9 {
+    background-image: url(../images/saudia2.jpg);
+}
+
+#imge10 {
+    background-image: url(../images/japan3.jpg);
+}
+
+#imge11 {
+    background-image: url(../images/germany2.jpg);
+}
+
+#imge12 {
+    background-image: url(../images/canada.jpg);
+}
+
+#imge13 {
+    background-image: url(../images/pakistanipalces/hanzala\ vally.jpg);
+}
+
+#imge14 {
+    background-image: url(../images/pakistanipalces/Passu-Cones-.jpg);
+}
+
+#imge15 {
+    background-image: url(../images/pakistanipalces/Swat-Valley.jpg);
+}
+
+#imge16 {
+    background-image: url(../images/pakistanipalces/YarkhunValley.jpg);
+}
+
+.bg-heading {
+    background-image: url(../images/backgroundwallpaper/backgroundofheading.svg);
+}
+
+.style-bg-heading {
+    display: inline-block;
+}
+
+.style-con-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    line-height: 60px;
+    margin: 0px;
+}
+
+.contact-info i {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #a9a95e;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.style-con-input {
+    background: none !important;
+    border: 2px solid black;
+    transition: 0.6s ease;
+}
+
+.style-con-input:focus {
+    border: 2px solid #a9a95e !important;
+    outline: none !important;
+}
+
+.style-con-nam-in {
+    justify-content: space-between;
+}
+
+.style-con-nam {
+    width: 49%;
+}
+
+.style-con-sub {
+    width: 100%;
+}
+
+.style-con-text {
+    width: 100%;
+}
+
+.style-send-button {
+    border: 0px;
+    margin-top: 5px !important;
+    border-radius: 40px;
+    font-weight: 800;
+    outline: none;
+    text-decoration: none;
+    float: left;
+}
+
+.style-send-button:focus {
+    outline: none !important;
+}
+
+.style-con-input::placeholder {
+    text-transform: capitalize;
+}
+
+/* .carousel-control-prev {
+    left: -90px !important;
+}
+
+.carousel-control-next {
+    left: 1042px !important;
+} */

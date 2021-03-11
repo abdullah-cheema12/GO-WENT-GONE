@@ -1,0 +1,38 @@
+/* sizes */
+.wh-10{ height: 10vh; width: 100%;}
+.wh-15{height: 15vh;width: 100%}
+.wh-15-80{height: 15vh;width: 80%}
+.wh-20{height: 20vh;width: 100%}
+.wh-30{height: 30vh;width: 100%}
+.wh-40{height: 40vh;width: 100%}
+.wh-50{height: 50vh;width: 100%}
+.wh-60{height: 60vh;width: 100%}
+.wh-70{height: 70vh;width: 100%}
+.wh-80{height: 80vh;width: 100%}
+.wh-90{height: 90vh;width: 100%}
+.wh-100{height: 100vh;width: 100%}
+.wh-110{height: 110vh;width: 100%}
+.wh-120{height: 120vh;width: 100%}
+.wh-130{height: 130vh;width: 100%}
+.wh-140{height: 140vh;width: 100%}
+.wh-150{height: 150vh;width: 100%}
+.wh-160{height: 160vh;width: 100%}
+.wh-170{height: 170vh;width: 100%}
+.wh-180{height: 180vh;width: 100%}
+.wh-190{height: 190vh;width: 100%}
+.wh-200{height: 200vh;width: 100%}
+/* background and text-colors */
+.text-green{color: #a9a95e;} 
+.bg-green{background-color: #a9a95e;}
+.text-white{color: #fff;}
+.bg-white{background-color: #fff;}
+.text-grey{color: rgb(218, 218, 218);}
+.bg-grey{background-color: rgb(218, 218, 218);}
+.text-black{color: #000;}
+.bg-black{background-color: #000;}
+/* fonts */
+.font-lemon{font-family: lemon;}
+.font-poopins{font-family: poopins;}
+.font-kushan{   font-family: kushan;}
+.flex{display: flex;justify-content: center;align-items: center;}
+.font-top-heading{font-size: 40px;}

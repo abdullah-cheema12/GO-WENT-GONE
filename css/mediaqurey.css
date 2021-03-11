@@ -1,0 +1,120 @@
+@media screen and (max-width: 1200px) {
+    .style-main-heading {
+        font-size: 10px;
+    }
+    .style-sub-heading {
+        font-size: 20px !important;
+    }
+    .style-input-form {
+        width: 145px !important;
+    }
+    .style-services {
+        height: 250px !important;
+    }
+    .style-h1-get {
+        font-size: 30px !important;
+    }
+    .style-get-in {
+        margin-top: 4px !important;
+    }
+    .style-get-in-to {
+        margin-top: 220px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .style-abo-heading {
+        padding-right: 4vw;
+    }
+    .style-get-in-to {
+        margin-top: 10vh;
+    }
+    /* .style-about-happy{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } */
+}
+
+@media screen and (max-width: 992px) {
+    .style-about-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .style-get-in-to {
+        margin-top: 60vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .style-other-head {
+        font-size: 50px !important;
+    }
+    .style-sub-heading {
+        font-size: 15px !important;
+    }
+    .style-parent-carousel {
+        flex-direction: column !important;
+    }
+    .style-carousel {
+        margin: 10px !important;
+    }
+    .style-home-head {
+        font-size: 14px;
+    }
+    .style-h1-get {
+        font-size: 25px !important;
+    }
+    .style-h2-get {
+        font-size: 20px !important;
+    }
+    .style-get-in {
+        padding: 10px 20px !important;
+        margin-top: 5px;
+    }
+    .style-abo-heading {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .style-about-happy {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .style-get-in-to {
+        margin-top: 5vh !important;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .style-other-head {
+        font-size: 40px !important;
+    }
+    .style-sub-heading {
+        font-size: 15px !important;
+    }
+    .style-main-heading {
+        font-size: 30px !important;
+    }
+    .style-services {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .style-h1-get {
+        font-size: 20px !important;
+    }
+    .style-h2-get {
+        font-size: 15px !important;
+    }
+    .style-get-in {
+        margin-top: 10px !important;
+    }
+    .style-services-parent {
+        padding: 50px;
+    }
+    .style-about-happy {
+        padding: 10px;
+    }
+}
